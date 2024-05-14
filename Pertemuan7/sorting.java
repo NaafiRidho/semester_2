@@ -34,14 +34,14 @@ public class sorting {
     }
 
     public static void main(String[] args) {
-        int[]sortedNilai={5,5,10,20,30,40,50};
-        int index=binarySearchAsc(sortedNilai, 5);
+        int[]sortedNilai={10,5,20,15,5,45};
+        sequensialSearch(sortedNilai, 5);
 
-        if (index!=-1) {
-            System.out.println("Data Ditemukan pada index ke- "+index);
-        }
-        else{
-            System.out.println("Data tidak ditemukan");
-        }
+        // if (index!=-1) {
+        //     System.out.println("Data Ditemukan pada index ke- "+index);
+        // }
+        // else{
+        //     System.out.println("Data tidak ditemukan");
+        // }
     }
 }
